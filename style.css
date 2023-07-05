@@ -45,6 +45,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    margin-right: 240px;
 }
 
 .header-menu_link {
@@ -67,6 +68,7 @@
     height: 100px;
     display: flex;
     align-items: center;
+    margin-right: 77px;
 }
 
 .header-auth-container_login-button {
@@ -101,4 +103,35 @@
 .header-auth-container_join-button > img {
     width 12px;
     margin-left: 15px;
+}
+
+.welcome-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #26335D;
+}
+
+.welcome-center-container {
+    width: 1227px;
+    display: flex;
+    justify-content; space-between;
+    align-items: center;
+}
+
+.welcome-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.welcome-col_prefix {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FF6551;
+    margin-button: 30px;
 }
